@@ -29,7 +29,15 @@ internship_project/
     ├── vite.config.js        # Vite configuration
     └── package.json
 ```
+# 📸 Application Preview
 
+| Login | Register |
+|-------|----------|
+| ![](./screenshots/login.png) | ![](./screenshots/register.png) |
+
+| Browse Stores | Store Details |
+|---------------|---------------|
+| ![](./screenshots/browse-stores.png) | ![](./screenshots/store-details.png) |
 ## Tech Stack
 
 ### Frontend
