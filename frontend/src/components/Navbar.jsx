@@ -28,6 +28,7 @@ export const Navbar = () => {
           ) : (
             <>
               <span className="nav-user">{user?.name}</span>
+              <Link to="/user/profile" className="nav-link">Profile</Link>
               {user?.role === 'ADMIN' && (
                 <Link to="/admin/dashboard" className="nav-link">Dashboard</Link>
               )}

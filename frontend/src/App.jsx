@@ -8,6 +8,7 @@ import { Login } from './pages/Login';
 import { Register } from './pages/Register';
 import { StoreList } from './pages/StoreList';
 import { StoreDetail } from './pages/StoreDetail';
+import { UserProfile } from './pages/UserProfile';
 import { AdminDashboard } from './pages/AdminDashboard';
 import { StoreOwnerDashboard } from './pages/StoreOwnerDashboard';
 import './App.css';
@@ -36,6 +37,14 @@ function AppContent() {
             element={
               <ProtectedRoute>
                 <StoreDetail />
+              </ProtectedRoute>
+            }
+          />
+          <Route
+            path="/user/profile"
+            element={
+              <ProtectedRoute requiredRole="USER">
+                <UserProfile />
               </ProtectedRoute>
             }
           />
