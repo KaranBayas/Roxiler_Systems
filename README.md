@@ -2,6 +2,16 @@
 
 A full-stack web application for rating and managing stores. Users can browse stores, submit and view ratings, while admins can manage users and stores.
 
+# 📸 Application Preview
+
+| Login | Register |
+|-------|----------|
+| ![](./screenshots/login.png) | ![](./screenshots/register.png) |
+
+| Browse Stores | Store Details |
+|---------------|---------------|
+| ![](./screenshots/browse-stores.png) | ![](./screenshots/store-details.png) |
+
 ## Project Structure
 
 ```
@@ -29,15 +39,7 @@ internship_project/
     ├── vite.config.js        # Vite configuration
     └── package.json
 ```
-# 📸 Application Preview
 
-| Login | Register |
-|-------|----------|
-| ![](./screenshots/login.png) | ![](./screenshots/register.png) |
-
-| Browse Stores | Store Details |
-|---------------|---------------|
-| ![](./screenshots/browse-stores.png) | ![](./screenshots/store-details.png) |
 ## Tech Stack
 
 ### Frontend
